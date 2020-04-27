@@ -14,7 +14,7 @@ strategy:
       python.version: '3.8'
 
 steps:
-- task: UsePythonVersion@38
+- task: UsePythonVersion@0
   inputs:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
